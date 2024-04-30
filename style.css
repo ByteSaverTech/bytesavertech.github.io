@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4a90e2, #9013fe); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Dark gray */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #555; /* Slightly lighter gray on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Main Content */
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Section Titles */
+.content h2 {
+    color: #4a90e2; /* Matching gradient color */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark gray */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #4a90e2; /* Matches the gradient color */
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+/* General Styles */
